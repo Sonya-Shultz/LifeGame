@@ -1,0 +1,90 @@
+html, body{
+    background-color: #232323;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.gifer.com/IxI.gif);
+    background-size: cover;
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0);
+    width: 90vmin;
+    height: 90vmin;
+    margin: calc(50vh - 45vmin) calc(50vw - 45vmin);
+    display: grid;
+    outline: rgb(69, 79, 92) solid 4px;
+}
+
+.cel{
+    padding: 0;
+    margin:0;
+    outline: black solid 1px;
+    display: block;
+    background-color: rgb(178, 204, 199);
+}
+
+#start{
+    position:absolute;
+    width: 20vmin;
+    height: 5vmin;
+    top:2vmin;
+    left:2vmin;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 0;
+    padding-top: 1vmin;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 3vmin;
+    color: rgb(69, 79, 92);
+}
+
+#start:hover{
+    background-color: rgba(178, 204, 199, 0.7);
+}
+
+#iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+
+#counter{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 3vmin;
+    width: 100%;
+    top:1vmin;
+    left:0;
+    text-align: center;
+    font-size: 3vmin;
+    color: rgb(178, 204, 199);
+}
+
+.inputData{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 5vmin;
+    width: 20vmin;
+    left:2vmin;
+    text-align: center;
+    font-size: 3vmin;
+    background-color:rgb(178, 204, 199);
+    color:rgb(69, 79, 92);
+    resize: none;
+    border:none;
+}
+
+#size{
+    top:10vmin;
+}
+
+#speed{
+    top:17vmin;
+}
